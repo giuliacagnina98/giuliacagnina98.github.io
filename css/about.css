@@ -2,40 +2,40 @@ body {
     background-color: #EFE8F1;
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-   h1 {
+   } 
+    h1 {
        color: #5154B2;
        font-size: 49px; 
        text-align: left; 
-  }
-   h2 {
+    }
+    h2 {
        color: #9B85CB;
        font-size: 49px;
        text-align: left;
-  } 
-   h3 {
+    } 
+    h3 {
        color: #000000;
        font-size: 31px;
        text-align: left;
-  }
+    }
    h4 {
        color: #FFFFFF;
        font-size: 25px;
        font-weight: bold;
        text-align: center;
-   }
+    }
    h5 {
     color: #FFFFFF;
        font-size: 16px;
        font-weight: bold; 
        text-align: center; 
-   }
+    }
    p {
        color: #000000;
        font-size: 16px;
        font-weight: normal; 
        text-align: left; 
-  }
+    }
   menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
@@ -43,7 +43,6 @@ body {
     width: 100%;
     float: left;
     margin-top: 50px;
-
 }
 ul {
     display: flex;
