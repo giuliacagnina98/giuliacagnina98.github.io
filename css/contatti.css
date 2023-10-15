@@ -73,4 +73,35 @@ li {
   background-color: #EFE8F1;
   padding: 80px;
   align-items: left;
-  }
+}
+.form-inline label {
+    margin: 5px 10px 5px 0;
+    margin-left: 80px;
+    color:#5154B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 80px 5px 0;
+    padding: 80px;
+    margin-left: 80px;
+    background-color: #BCA4D7;
+    border: 1px solid #BCA4D7;
+    align-items: center;
+}
+.form-inline button {
+    padding: 20px 60px;
+    margin-top: 40px;
+    margin-left: 80px;
+    background-color: #5154B2;
+    border: 0px solid #5154B2;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+} 
+.form-inline button:hover {
+    background-color: #9B85CB;
+} 
