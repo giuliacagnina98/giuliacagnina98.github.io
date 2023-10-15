@@ -1,0 +1,94 @@
+body {
+    background-color: #EFE8F1;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   h1 {
+       color: #5154B2;
+       font-size: 49px; 
+       text-align: left; 
+  }
+   h2 {
+       color: #9B85CB;
+       font-size: 49px;
+       text-align: left;
+  } 
+   h3 {
+       color: #000000;
+       font-size: 31px;
+       text-align: left;
+  }
+   h4 {
+       color: #FFFFFF;
+       font-size: 25px;
+       font-weight: bold;
+       text-align: center;
+   }
+   h5 {
+    color: #FFFFFF;
+       font-size: 16px;
+       font-weight: bold; 
+       text-align: center; 
+   }
+   p {
+       color: #000000;
+       font-size: 16px;
+       font-weight: normal; 
+       text-align: left; 
+  }
+  menu {
+    background-color: #EFE8F1;
+    border-bottom: 5px solid #EFE8F1;
+    display: flex;
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+
+}
+ul {
+    display: flex;
+}
+li {
+    color:#5154B2;
+    display: block; 
+    font-weight: medium;
+    font-size: 25px;
+    line-height: 30px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-align: left;
+}
+.menu li.active, .menu li:hover {
+    background-color: #D9C5E4;
+    border-bottom: 5px solid #D9C5E4;
+}
+.footer-container {
+    border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+    color:#FFFFFF;
+    text-align: center;
+}
+button {
+        background-color: #5154B2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        margin-left: 80px;
+        margin-top: 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        align-items: left;
+        margin: 20px;
+    }
+    button:hover {
+        background-color: #9B85CB;
+    }
