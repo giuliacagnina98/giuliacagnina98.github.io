@@ -1,3 +1,35 @@
+/* 
+
+    NOTE:
+    1)
+
+    --> prima di continuare studiare questo argomento su internet:
+
+    _ Reset pagina degli elementi
+    (di default i browser inseriscono degli spazi con margini, preimpostati da loro e questo influisce sul nostro codice a livello
+    di spazio tra i tag).
+    _ cercare su internet --> asterisco selettore css
+
+    --> chiedere ad Ale come si resetta la pagina.
+
+    2)
+    quando si creano i "contenitori" quindi i div principali del progetto, bisogna inserire la *larghezza espressa in pixel
+    questo ti permette sia di avere un allineamento preciso degli elementi ai bordi che al centro della pagina inserendo
+    la seguente riga di codice:
+    margin: 0 auto;
+
+    ti permettera di allineare il div contenitori con una lunghezza al centro della pagina
+
+    così da cancellare il padding: 80px che hai inserito.
+
+   * IMPORTANTE:
+   quando si inizia un progetto bisogna prima di tutto capire a che dimensioni lo si sta progettando, si può decidere in base
+   alla dimensione del viwport del proprio schermo come dimensione iniziale e poi da li con le media query impoostare i valori
+   degli altri viwport (pc portatile - tablet - smarthphone.)
+
+*/
+
+
 body {
       background-color: #EFE8F1;
       margin: 0%;
@@ -6,17 +38,17 @@ body {
      h1 {
          color: #5154B2;
          font-size: 49px; 
-         text-align: left; 
+         text-align: left;      /* default, non serve scrivere questa regola */
     }
      h2 {
          color: #9B85CB;
          font-size: 49px;
-         text-align: left;
+         text-align: left;      /* default, non serve scrivere questa regola */
     } 
      h3 {
          color: #000000;
          font-size: 31px;
-         text-align: left;
+         text-align: left;      /* default, non serve scrivere questa regola */
     }
      h4 {
          color: #FFFFFF;
@@ -33,24 +65,26 @@ body {
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
-    display: flex;
+    display: flex;          /* ricordati che questa regola deve essere assegnata al tag che lo precede. */
     width: 100%;
-    float: left;
+    float: left;            /* se usi il display flex non serve questa regola. */
     margin-top: 50px;
 
 }
 ul {
-    display: flex;
+    display: flex;          /* questa regola inserita va bene, perché descrive il comportameto degli elementi figli a questo elemento. */
 }
 li {
+    /* la line-height determina la larghezza della riga di testo,
+        Quanto spazio intercorre tra una riga ed un altra del testo. */
     color:#5154B2;
     display: block; 
-    font-weight: medium;
+    font-weight: medium;    /* non esiste il medium come regola, puoi verificarlo dal pannello che ti appare dopo aver inserito i due punti. */
     font-size: 25px;
-    line-height: 30px;
+    line-height: 30px;      /* line-height */
     padding-right: 10px;
     list-style-type: none;
-    text-align: left;
+    text-align: left;       /* di default è impostato a sinistra, non serve scrivere questa regola. */
 }
 .menu li.active, .menu li:hover {
     background-color: #D9C5E4;
