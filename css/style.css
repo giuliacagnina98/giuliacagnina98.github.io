@@ -28,8 +28,13 @@
    degli altri viwport (pc portatile - tablet - smarthphone.)
 
 */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
-    width: 100%;  
+    width: 1220px;  
     margin: 0 auto;  
 }
 body  {
@@ -102,7 +107,6 @@ li {
 }
 .header {
     background-color: #EFE8F1;
-    width: 100%;
     align-items: left;
     margin-left: 80px;
     margin-top: 80Px
@@ -110,17 +114,24 @@ li {
     }
 .lavori {
     background-color: #EFE8F1;
-    width: 100%;
     align-items: left;
     margin: auto;
 }
 .lavori_img {
     background-color: #D9C5E4;
-    width: 100%;
-    align-items: center;
     margin: auto;
+    width: 100%;
 }
 .header_img {
-    width: 100%;
     margin-left: 550px;
+}
+.orizon_img {
+    width: 100%;
+    display: flex;
+}
+img {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    margin: 30px 40px 60px 40px;
 }
