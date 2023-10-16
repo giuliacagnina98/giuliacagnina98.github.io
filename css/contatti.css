@@ -1,32 +1,36 @@
 body {
-    background-color: #EFE8F1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-   h1 {
-       color: #5154B2;
-       font-size: 49px; 
-       
-  }
-   h2 {
-       color: #9B85CB;
-       font-size: 49px;
-  } 
-   h3 {
-       color: #000000;
-       font-size: 31px;
-  }
-   h4 {
-       color: #FFFFFF;
-       font-size: 25px;
-       font-weight: bold;
-       text-align: center;
-   }
-   p {
-       color: #FFFFFF;
-       font-size: 16px;
-       font-weight: bold; 
-       text-align: center; 
-    }
+  background-color: #EFE8F1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #5154B2;
+  font-size: 49px; 
+}
+
+h2 {
+  color: #9B85CB;
+  font-size: 49px;
+} 
+
+h3 {
+  color: #000000;
+  font-size: 31px;
+}
+   
+h4 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold; 
+  text-align: center; 
+}
 .menu {
   background-color: #EFE8F1;
   border-bottom: 5px solid #EFE8F1;
