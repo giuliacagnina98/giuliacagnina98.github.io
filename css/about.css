@@ -83,7 +83,7 @@ li {
     background-color: #EFE8F1;
     height: 500px;
     display: flex;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .formazione_text {
     float: left;
@@ -99,7 +99,7 @@ li {
     background-color: #EFE8F1;
     height: 500px;
     display: flex;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .esperienze_text {
     float: right;
@@ -115,7 +115,7 @@ li {
     background-color: #EFE8F1;
     height: 500px;
     display: flex;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 60px;
 }
 .skills_text {
