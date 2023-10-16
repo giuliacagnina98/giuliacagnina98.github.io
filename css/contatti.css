@@ -68,6 +68,10 @@ li {
   color:#FFFFFF;
   text-align: center;
 }
+.form {
+  width: 50%; 
+  margin-bottom: 60px;
+}
 .form-inline label {
     margin: 5px 10px 5px 0;
     margin-left: 80px;
@@ -89,6 +93,7 @@ li {
     padding: 20px 60px;
     margin-top: 40px;
     margin-left: 80px;
+    margin-bottom: 60px;
     background-color: #5154B2;
     border: 0px solid #5154B2;
     color: white;
