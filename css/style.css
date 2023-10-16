@@ -30,9 +30,8 @@
 */
 
 
-body {
+body  {
       background-color: #EFE8F1;
-      margin: 0%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
      h1 {
@@ -105,16 +104,17 @@ li {
 }
 .header {
     background-color: #EFE8F1;
-    padding: 80px;
     align-items: left;
+    margin: auto;
     }
 .lavori {
     background-color: #EFE8F1;
-    padding: 80px;
     align-items: left;
+    margin: auto;
 }
 .lavori_img {
     background-color: #D9C5E4;
     width: 100%;
     align-items: center;
+    margin: auto;
 }
