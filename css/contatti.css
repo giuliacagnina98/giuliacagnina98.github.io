@@ -115,3 +115,10 @@ li {
   width: 100%;
   margin-left: 550px;
 }
+.saluti {
+  background-color: #EFE8F1;
+  width: 100%;
+  align-items: left;
+  margin-top: 80px;
+  margin-left: 80px;
+}
