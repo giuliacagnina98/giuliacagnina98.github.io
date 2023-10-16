@@ -5,17 +5,14 @@ body {
    h1 {
        color: #5154B2;
        font-size: 49px; 
-       text-align: left; 
   }
    h2 {
        color: #9B85CB;
        font-size: 49px;
-       text-align: left;
   } 
    h3 {
        color: #000000;
        font-size: 31px;
-       text-align: left;
   }
    h4 {
        color: #FFFFFF;
@@ -40,7 +37,6 @@ body {
     border-bottom: 5px solid #EFE8F1;
     display: flex;
     width: 100%;
-    float: left;
     margin-top: 50px;
 
 }
@@ -50,9 +46,8 @@ ul {
 li {
     color:#5154B2;
     display: block; 
-    font-weight: medium;
+    font-weight: normal;
     font-size: 25px;
-    line-height: 30px;
     padding-right: 10px;
     list-style-type: none;
     text-align: left;
@@ -93,21 +88,21 @@ button {
     }
 .progetti_ux {
      background-color: #EFE8F1;
-     padding: 10px;
      align-items: left;
      margin-bottom: 60px;
+     margin: auto;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    padding: 10px;
     align-items: left;
     margin-bottom: 60px;
+    margin: auto;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    padding: 10px;
     align-items: left;
     margin-bottom: 60px;
+    margin: auto;
 }
 .progetto_img {
      width: 100%;

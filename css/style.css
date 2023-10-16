@@ -37,17 +37,14 @@ body  {
      h1 {
          color: #5154B2;
          font-size: 49px; 
-         text-align: left;      /* default, non serve scrivere questa regola */
     }
      h2 {
          color: #9B85CB;
          font-size: 49px;
-         text-align: left;      /* default, non serve scrivere questa regola */
     } 
      h3 {
          color: #000000;
          font-size: 31px;
-         text-align: left;      /* default, non serve scrivere questa regola */
     }
      h4 {
          color: #FFFFFF;
@@ -65,25 +62,23 @@ body  {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
     display: flex;          /* ricordati che questa regola deve essere assegnata al tag che lo precede. */
-    width: 100%;
-    float: left;            /* se usi il display flex non serve questa regola. */
+    width: 100%;        
     margin-top: 50px;
 
 }
 ul {
-    display: flex;          /* questa regola inserita va bene, perché descrive il comportameto degli elementi figli a questo elemento. */
+    display: flex;      
 }
 li {
     /* la line-height determina la larghezza della riga di testo,
         Quanto spazio intercorre tra una riga ed un altra del testo. */
     color:#5154B2;
     display: block; 
-    font-weight: medium;    /* non esiste il medium come regola, puoi verificarlo dal pannello che ti appare dopo aver inserito i due punti. */
+    font-weight: normal;  
     font-size: 25px;
     line-height: 30px;      /* line-height */
     padding-right: 10px;
-    list-style-type: none;
-    text-align: left;       /* di default è impostato a sinistra, non serve scrivere questa regola. */
+    list-style-type: none;  
 }
 .menu li.active, .menu li:hover {
     background-color: #D9C5E4;
