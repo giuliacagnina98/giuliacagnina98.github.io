@@ -96,31 +96,31 @@ button {
      background-color: #EFE8F1;
      align-items: left;
      margin-bottom: 60px;
-     margin: auto;
+     margin-left: 80px;
 }
 .progetti_ui {
     background-color: #EFE8F1;
     align-items: left;
     margin-bottom: 60px;
-    margin: auto;
+    margin-left: 80px;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
     align-items: left;
     margin-bottom: 60px;
-    margin: auto;
+    margin-left: 80px;
 }
 .progetto_img {
-     width: 100%;
-     align-items: center;
-     margin-bottom: 60px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 60px;
 }
 .interfaccia_img {
     width: 100%;
-     align-items: center;
-     margin-bottom: 60px;
+    align-items: center;
+    margin-bottom: 60px;
 }
-.grafiche img {
+.grafiche_img {
     background-color: #9B85CB;
     width: 100%;
     align-items: center;

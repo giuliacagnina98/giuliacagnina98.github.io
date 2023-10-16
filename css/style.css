@@ -111,13 +111,13 @@ li {
     background-color: #EFE8F1;
     width: 100%;
     align-items: left;
-    margin: auto;
+    margin-left: 80px;
 }
 .lavori_img {
     background-color: #D9C5E4;
     width: 100%;
     align-items: center;
-    margin: auto;
+    margin-left: auto;
 }
 .header_img {
     width: 100%;
