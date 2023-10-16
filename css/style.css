@@ -101,11 +101,15 @@ li {
 }
 .header {
     background-color: #EFE8F1;
+    width: 100%;
     align-items: left;
-    margin: auto;
+    margin-left: 80px;
+    margin-top: 80px;
+    
     }
 .lavori {
     background-color: #EFE8F1;
+    width: 100%;
     align-items: left;
     margin: auto;
 }
@@ -114,4 +118,8 @@ li {
     width: 100%;
     align-items: center;
     margin: auto;
+}
+.header_img {
+    width: 100%;
+    margin-left: 550px;
 }

@@ -68,11 +68,6 @@ li {
   color:#FFFFFF;
   text-align: center;
 }
-.header {
-  background-color: #EFE8F1;
-  padding: 80px;
-  align-items: left;
-}
 .form-inline label {
     margin: 5px 10px 5px 0;
     margin-left: 80px;
@@ -104,3 +99,14 @@ li {
 .form-inline button:hover {
     background-color: #9B85CB;
 } 
+.header {
+  background-color: #EFE8F1;
+  width: 100%;
+  align-items: left;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.header_img {
+  width: 100%;
+  margin-left: 550px;
+}
