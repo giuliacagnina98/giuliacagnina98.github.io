@@ -34,7 +34,7 @@
     box-sizing: border-box;
 }
 .container {
-    width: 1220px;  
+    width: 1425px;  
     margin: 0 auto;  
 }
 body  {
@@ -121,14 +121,29 @@ li {
     background-color: #D9C5E4;
     margin: auto;
     width: 100%;
+    display: flex;
+    
 }
 .header_img {
     margin-left: 550px;
 }
-.orizon_img {
-    width: 100%;
+.orizon_img > img {
+    width: 600px;
 }
-img {
-    width: 50%;
+.lavori_img > img:not(.mobile_ecodream) {
+    width: 600px;
+    height: auto;
+    align-items:center;
+}
+.mobile_ecodream {
+    width: 250px; 
+    height: auto;
+}
+.header_img > img {
+    width: 100%; 
+    height: auto;
+}
+.orizon_img img:first-child {
+    width: 450px; 
     height: auto;
 }
