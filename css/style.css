@@ -1,33 +1,3 @@
-/* 
-
-    NOTE:
-    1)
-
-    --> prima di continuare studiare questo argomento su internet:
-
-    _ Reset pagina degli elementi
-    (di default i browser inseriscono degli spazi con margini, preimpostati da loro e questo influisce sul nostro codice a livello
-    di spazio tra i tag).
-    _ cercare su internet --> asterisco selettore css
-
-    --> chiedere ad Ale come si resetta la pagina.
-
-    2)
-    quando si creano i "contenitori" quindi i div principali del progetto, bisogna inserire la *larghezza espressa in pixel
-    questo ti permette sia di avere un allineamento preciso degli elementi ai bordi che al centro della pagina inserendo
-    la seguente riga di codice:
-    margin: 0 auto;
-
-    ti permettera di allineare il div contenitori con una lunghezza al centro della pagina
-
-    così da cancellare il padding: 80px che hai inserito.
-
-   * IMPORTANTE:
-   quando si inizia un progetto bisogna prima di tutto capire a che dimensioni lo si sta progettando, si può decidere in base
-   alla dimensione del viwport del proprio schermo come dimensione iniziale e poi da li con le media query impoostare i valori
-   degli altri viwport (pc portatile - tablet - smarthphone.)
-
-*/
 * {
     margin: 0; 
     padding: 0;

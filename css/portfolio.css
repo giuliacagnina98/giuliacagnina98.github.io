@@ -1,3 +1,8 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #EFE8F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,9 +46,9 @@ p {
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
-    width: 100%;
+    width: 70%;        
     margin-top: 50px;
-
+    margin-left: 50px;
 }
 ul {
     display: flex;
@@ -73,6 +78,7 @@ li {
 .footer-social {
     color:#FFFFFF;
     text-align: center;
+    margin: 30px auto;
 }
 button {
         background-color: #5154B2;
