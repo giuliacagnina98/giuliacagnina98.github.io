@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    width: 1425px;  
+    margin: 0 auto;  
+}
 body {
     background-color: #EFE8F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,14 +29,14 @@ h3 {
    
 h4 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 
 h5 {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold; 
     text-align: center; 
 }
@@ -92,44 +96,41 @@ button {
         display: inline-block;
         font-size: 16px;
         align-items: left;
-        margin: 20px;
+        margin: 40px;
     }
     button:hover {
         background-color: #9B85CB;
     }
 .progetti_ux {
      background-color: #EFE8F1;
-     align-items: left;
-     margin-bottom: 60px;
-     margin-left: 80px;
+     width: 100%;
+     text-align: left;
+     margin: 60px 80px;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    align-items: left;
-    margin-bottom: 60px;
-    margin-left: 80px;
+    width: 100%;
+    text-align: left;
+    margin: 60px 80px;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    align-items: left;
-    margin-bottom: 60px;
-    margin-left: 80px;
-}
-.progetto_img {
     width: 100%;
-    align-items: left;
-    margin-bottom: 60px;
+    text-align: left;
+    margin: 60px 80px;   
 }
-.interfaccia_img {
+.progetto_img > img {
     width: 100%;
-    align-items: left;
-    margin-bottom: 60px;
+    height: auto;
 }
-.grafiche_img {
+.interfaccia_img > img {
+    width: 100%;
+    height: auto;
+}
+.grafiche_img > img {
     background-color: #9B85CB;
     width: 100%;
-    align-items: left;
-    margin-bottom: 60px;
+    height: auto;
 }
 
 
