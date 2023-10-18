@@ -108,12 +108,12 @@ ul {
 }
 li {
     color:#5154B2;
-    display: block; 
+    /* display: block;  il tag li è già un tag block*/
     font-weight: normal;
     font-size: 25px;
     padding-right: 10px;
     list-style-type: none;
-    text-align: left;
+    /* text-align: left; di default il testo è già impostato a sinistra */
 }
 .menu li.active, .menu li:hover {
     background-color: #D9C5E4;
