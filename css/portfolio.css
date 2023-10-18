@@ -12,11 +12,13 @@
     => aggiungere il MARGIN a elementi di tipo BLOCK fa si che la distanza impostata viene calcolata dal bordo dell'elemto all'esterno dello stesso,
     QUESTO FA SI CHE LA DISTANZA CREATA CON IL MARGIN VIENE CALCOLATA FUORI DAL CONTENITORE PADRE DELL'ELEMENTO E QUINDI NON DAL BORDO DELL'ELEMENTO
     IN CUI è STATO APPLICATO IL MARGIN AL CONTENITORE ESTERNO.
+    (questo perchè gli elementi che creiamo non hanno un altezza fissa ma varia in base al contenuto).
 
     => aggiungere il MARGIN a elementi di tipo INLINE non viene calcolata all'infuori del contenitore padre dell'elemento stesso.
 
-    => utilizzare il margin per un elemento block per allinearlo al centro con margin: 0 auto.
+    => utilizzare il margin per un elemento block per allinearlo al centro con margin: 0 auto e il padding per il top.
 */
+
 
 
 * {
@@ -24,14 +26,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 .container {
     width: 1425px;  
     margin: 0 auto;  
 }
+
 body {
     background-color: #EFE8F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+/* STYLE HEADING */
 
 h1 {
     color: #5154B2;
@@ -62,19 +71,31 @@ h5 {
     text-align: center; 
 }
 
+
 p {
     color: #000000;
     font-size: 16px;
     font-weight: normal; 
     text-align: left; 
 }
+
+/* NAVIGATION BAR */
+
+
+/*
+    se vuoi spostare più in basso i link puoi: 
+    => aumentare la height del tag .menu
+    oppure:
+    => al tag menu inserire padding-top
+
+*/
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
-    height: 100px;
-    width: 100px;        
-    margin-top: 50px;
-    margin-left: 50px;
+    height: 100px;      /* aumentare questo valore */
+    width: 90%;         /* impostare una larghezza differente per far si che il blocco sposta i link dal bordo sinistro oppure usare il padding  */
+    margin: 0 auto;
+    /* padding-left:;  se vuoi spostare i link dal margine sinistro impostare questo valore */
 }
 ul {
     display: flex;
@@ -82,7 +103,8 @@ ul {
     align-items: center;
     height: 100%; 
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;  /* il valore auto non fa si che il div si posizioni al centro in modo orizzontale
+            perché la grandezza è uguale al contenitore padre, si imposta solo a elementi più piccoli per allinearli al centro orizzontalemente */
 }
 li {
     color:#5154B2;
@@ -97,6 +119,11 @@ li {
     background-color: #D9C5E4;
     border-bottom: 5px solid #D9C5E4;
 }
+/* _______________ */
+
+
+/* FOOTER */
+
 .footer-container {
     border-top: 1px solid #5154B2; 
 	text-align:center;
@@ -111,28 +138,35 @@ li {
     text-align: center;
     margin: 30px auto;
 }
+
+
 button {
-        background-color: #5154B2;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        margin-left: 80px;
-        margin-top: 30px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        align-items: left;
-        margin: 40px;
-    }
-    button:hover {
-        background-color: #9B85CB;
-    }
+    background-color: #5154B2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: left;
+    margin: 40px;
+}
+
+
+button:hover {
+    background-color: #9B85CB;
+}
+
+
+
 .progetti_ux {
-     background-color: #EFE8F1;
-     width: 1200px;
-     text-align: left;
-     margin: 60px 80px;
+    background-color: #EFE8F1;
+    width: 1200px;
+    text-align: left;
+    margin: 60px 80px;
 }
 .progetti_ux > p {
     margin-top: 50px;
