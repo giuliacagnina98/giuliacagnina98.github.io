@@ -133,12 +133,13 @@ button {
 }
 .progetti_grafica  > p {
     margin-top: 50px;
-    width: 100%;
+    width: 70%;
 }
 .progetto_img {
     width: 1400px;
     height: auto;
     margin: auto 10px;
+    flex-direction: column;
     justify-content: center;
 }
 .progetto_img > img {

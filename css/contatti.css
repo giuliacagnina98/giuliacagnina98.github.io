@@ -71,16 +71,17 @@ li {
 }
 .footer-container {
   border-top: 1px solid #5154B2; 
-  text-align:center;
-  padding:30px 10px;
-  line-height: 1.6em;
-  font-size:0.8em;
-  background-color: #5154B2;
-  color: #fff;
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
 }
 .footer-social {
   color:#FFFFFF;
   text-align: center;
+  margin: 30px auto;
 }
 .form {
   width: 50%; 
