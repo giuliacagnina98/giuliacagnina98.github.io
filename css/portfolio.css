@@ -113,17 +113,26 @@ button {
      text-align: left;
      margin: 60px 80px;
 }
+.progetti_ux > p {
+    margin-top: 50px;
+}
 .progetti_ui {
     background-color: #EFE8F1;
     width: 100%;
     text-align: left;
     margin: 60px 80px;
 }
+.progetti_ui > p {
+    margin-top: 50px;
+}
 .progetti_grafica {
     background-color: #EFE8F1;
     width: 100%;
     text-align: left;
     margin: 60px 80px;   
+}
+.progetti_grafica  > p {
+    margin-top: 50px;
 }
 .progetto_img > img {
     width: 100%;
@@ -138,12 +147,11 @@ button {
     width: 100%;
     height: auto;
 }
-.buttons_ux {
-    width: 100%; 
-    height: auto; 
+.buttons_ux button:first-child{
+    margin-left: 0%;
+    
 }
-.buttons_ui {
-    width: 100%; 
-    height: auto; 
+.buttons_ui button:first-child{
+    margin-left: 0%;
 }
 
