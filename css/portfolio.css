@@ -109,7 +109,7 @@ button {
     }
 .progetti_ux {
      background-color: #EFE8F1;
-     width: 100%;
+     width: 1200px;
      text-align: left;
      margin: 60px 80px;
 }
@@ -118,7 +118,7 @@ button {
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    width: 100%;
+    width: 1200px;
     text-align: left;
     margin: 60px 80px;
 }
@@ -127,7 +127,7 @@ button {
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    width: 100%;
+    width: 1200px;
     text-align: left;
     margin: 60px 80px;   
 }
@@ -168,9 +168,14 @@ button {
     width: 100%;
     height: auto;
 }
-.buttons_ux button:first-child{
-    margin-left: 0%;
-    
+.buttons_ux {
+    width: 800px;
+}
+.buttons_ux button:first-child {
+    margin-left: 0%;  
+}
+.buttons_ui {
+    width: 800px;
 }
 .buttons_ui button:first-child{
     margin-left: 0%;
