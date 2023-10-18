@@ -135,33 +135,18 @@ button {
     margin-top: 50px;
     width: 70%;
 }
-.progetto_img {
-    width: 1400px;
-    height: auto;
-    margin: auto 10px;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .progetto_img > img {
     width: 100%;
     height: auto;
 }
-.interfaccia_img {
-    width: 1400px;
-    height: auto; 
-    margin: auto 10px;
-    justify-content: center;
-}
+
 .interfaccia_img > img {
     width: 100%;
     height: auto;
 }
 .grafiche_img {
     background-color: #9B85CB;
-    width: 1400px;
-    height: auto; 
-    margin: auto 10px; 
-    justify-content: center;
 }
 .grafiche_img > img {
     background-color: #9B85CB;
