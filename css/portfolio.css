@@ -1,3 +1,24 @@
+/* 
+    IMPORTANTISSIMO:
+
+    -> si aggiunge il margin solo ad elementi di tipo inline es: button, a, span ecc ecc
+    -> si aggiunge il padding a elementi di tipo block es: div, h1, p, ecc ecc
+
+    => aggiungere il PADDING a elementi di tipo BLOCK fa si che l'elemento contenitore rispetta le sue caratteristiche
+    e non viene modificato lo spazio tra gli elementi.
+
+    => aggiungere il PADDING a elementi di tipo INLINE crea lo spazio tra il contenitore e il borde dell'elemento spesso.
+
+    => aggiungere il MARGIN a elementi di tipo BLOCK fa si che la distanza impostata viene calcolata dal bordo dell'elemto all'esterno dello stesso,
+    QUESTO FA SI CHE LA DISTANZA CREATA CON IL MARGIN VIENE CALCOLATA FUORI DAL CONTENITORE PADRE DELL'ELEMENTO E QUINDI NON DAL BORDO DELL'ELEMENTO
+    IN CUI è STATO APPLICATO IL MARGIN AL CONTENITORE ESTERNO.
+
+    => aggiungere il MARGIN a elementi di tipo INLINE non viene calcolata all'infuori del contenitore padre dell'elemento stesso.
+
+    => utilizzare il margin per un elemento block per allinearlo al centro con margin: 0 auto.
+*/
+
+
 * {
     margin: 0; 
     padding: 0;
