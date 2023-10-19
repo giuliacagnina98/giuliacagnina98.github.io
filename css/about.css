@@ -105,9 +105,11 @@ li {
     width: 50%;
     margin-left: 60px;
 }
-.formazione_img {
+.formazione_img > img {
     float: right;
-    width: 50%;
+    width: 500px;
+    height: 500px;
+    margin: auto 0;
 }
 .esperienze {
     width: 100%;
@@ -121,9 +123,11 @@ li {
     width: 50%;
     margin-left: 60px;
 }
-.esperienze_img {
+.esperienze_img > img {
     float: left;
-    width: 50%;
+    width: 500px;
+    height: 500px; 
+    margin: auto 0;
 }
 .skills {
     width: 100%;
@@ -138,7 +142,10 @@ li {
     width: 50%;
     margin-left: 60px;
 }
-.skills_img {
-    float: right;
-    width: 50%;
+.skills_img > img {
+  width: 500px; 
+  height: 500px; 
+  float: right; 
+  margin: auto 0; 
+
 }
