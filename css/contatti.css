@@ -121,7 +121,7 @@ li {
 } 
 .header {
   background-color: #EFE8F1;
-  width: 100%;
+  width: 70%;
   align-items: left;
   margin-left: 80px;
   margin-top: 80px;
@@ -135,7 +135,7 @@ li {
 }
 .saluti {
   background-color: #EFE8F1;
-  width: 100%;
+  width: 70%;
   align-items: left;
   margin-top: 80px;
   margin-left: 80px;

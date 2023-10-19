@@ -83,12 +83,12 @@ li {
     margin: 30px auto;
 }
 .header {
+    width: 700px;
     background-color: #EFE8F1;
     align-items: left;
     margin-left: 80px;
     margin-top: 80Px
-    
-    }
+ }
 .lavori {
     background-color: #EFE8F1;
     align-items: left;

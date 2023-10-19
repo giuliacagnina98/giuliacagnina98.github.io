@@ -92,19 +92,17 @@ p {
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
-    height: 100px;      /* aumentare questo valore */
-    width: 90%;         /* impostare una larghezza differente per far si che il blocco sposta i link dal bordo sinistro oppure usare il padding  */
-    margin: 0 auto;
-    /* padding-left:;  se vuoi spostare i link dal margine sinistro impostare questo valore */
+    height: 100px;  
+    width: 100%;         
+    padding-left: 50px;
+    padding-top: 97px;
 }
 ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 100%; 
-    width: 100%;
-    margin: 0 auto;  /* il valore auto non fa si che il div si posizioni al centro in modo orizzontale
-            perché la grandezza è uguale al contenitore padre, si imposta solo a elementi più piccoli per allinearli al centro orizzontalemente */
+    width: 100%;  
 }
 li {
     color:#5154B2;
@@ -113,7 +111,6 @@ li {
     font-size: 25px;
     padding-right: 10px;
     list-style-type: none;
-    /* text-align: left; di default il testo è già impostato a sinistra */
 }
 .menu li.active, .menu li:hover {
     background-color: #D9C5E4;
@@ -162,13 +159,13 @@ button:hover {
 
 
 
-.progetti_ux {
+.wrapper-progetti-ux {
     background-color: #EFE8F1;
     width: 1200px;
     text-align: left;
     margin: 60px 80px;
 }
-.progetti_ux > p {
+.wrapper-progetti-ux > p {
     margin-top: 50px;
 }
 .progetti_ui {
@@ -179,6 +176,7 @@ button:hover {
 }
 .progetti_ui > p {
     margin-top: 50px;
+    width: 70%;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
