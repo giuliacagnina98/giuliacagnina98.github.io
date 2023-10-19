@@ -213,3 +213,15 @@ button:hover {
     width: 100%; 
     height: auto;
 }
+.menu a {
+    color:#5154B2;
+    text-decoration: none;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.buttons_ux a {
+    color:#FFFFFF;
+    text-decoration: none;
+}

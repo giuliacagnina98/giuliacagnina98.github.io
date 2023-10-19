@@ -138,3 +138,11 @@ li {
     width: 600px;
     height: auto;
 }
+.menu a {
+    color:#5154B2;
+    text-decoration: none;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
