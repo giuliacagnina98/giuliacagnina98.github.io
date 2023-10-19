@@ -98,7 +98,6 @@ ul {
 }
 li {
     color:#5154B2;
-    /* display: block;  il tag li è già un tag block*/
     font-weight: normal;
     font-size: 25px;
     padding-right: 10px;
