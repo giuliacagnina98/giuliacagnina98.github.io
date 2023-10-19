@@ -81,14 +81,6 @@ p {
 
 /* NAVIGATION BAR */
 
-
-/*
-    se vuoi spostare più in basso i link puoi: 
-    => aumentare la height del tag .menu
-    oppure:
-    => al tag menu inserire padding-top
-
-*/
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
