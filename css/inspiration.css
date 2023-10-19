@@ -51,8 +51,10 @@ p {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
     height: 100px;
-    width: 100px;        
+    width: 100%;        
     padding-left: 50px;
+    position: fixed;
+    top: 0;
 }
 ul {
     display: flex;
@@ -95,6 +97,7 @@ li {
     height: 500px;
     display: flex;
     margin-left: 50px;
+    margin-top: 150px;
 }
 .arte_text {
     float: left;

@@ -44,8 +44,10 @@ p {
   background-color: #EFE8F1;
   border-bottom: 5px solid #EFE8F1;
   height: 100px;
-  width: 100px;        
+  width: 100%;        
   padding-left: 50px;
+  position: fixed; 
+  top: 0;
 }
 ul {
   display: flex;
@@ -123,7 +125,7 @@ li {
   width: 70%;
   align-items: left;
   margin-left: 80px;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .header_img {
   margin-left: 550px;

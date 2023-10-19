@@ -87,6 +87,9 @@ p {
     height: 100px;  
     width: 100%;         
     padding-left: 50px;
+    position: fixed; 
+    top: 0;
+
 }
 ul {
     display: flex;
@@ -141,7 +144,9 @@ li {
     margin: 40px 40px 0 0 ;
 
 }
-
+.progetti_ux {
+    margin-top: 150px;
+}
 .buttons_ux a:hover, .buttons_ui a:hover {
     background-color: #9B85CB;
 }
