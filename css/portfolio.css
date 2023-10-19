@@ -148,32 +148,33 @@ li {
 
 .wrapper-progetti-ux {
     background-color: #EFE8F1;
-    width: 1200px;
+    width: 80%;
     text-align: left;
     margin: 60px auto;
 }
 .wrapper-progetti-ux > p {
     margin-top: 50px;
+    width: 90%;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    width: 1200px;
+    width: 80%;
     text-align: left;
     margin: 60px auto;
 }
 .progetti_ui > p {
     margin-top: 50px;
-    width: 70%;
+    width: 90%;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    width: 1200px;
+    width: 80%;
     text-align: left;
     margin: 60px auto ;   
 }
 .progetti_grafica  > p {
     margin-top: 50px;
-    width: 70%;
+    width: 90%;
 }
 
 .progetto_img > img {
