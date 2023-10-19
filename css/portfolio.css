@@ -127,38 +127,22 @@ li {
     margin: 30px auto;
 }
 
-.buttons_ux  a {
+.buttons_ux  a, .buttons_ui a {
     background-color: #5154B2;
     border: none;
     color: white;
     padding: 15px 32px;
-    margin-left: 80px;
     margin-top: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     align-items: left;
-    margin: 40px;
+    margin: 40px 40px 0 0 ;
 
 }
-.button_ui a {
-    background-color: #5154B2;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    margin-left: 80px;
-    margin-top: 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    align-items: left;
-    margin: 40px;
-}
 
-
-.button_ux a:hover, .button_ui a:hover {
+.buttons_ux a:hover, .buttons_ui a:hover {
     background-color: #9B85CB;
 }
 
@@ -213,13 +197,13 @@ li {
     width: 800px;
 }
 .buttons_ux button:first-child {
-    margin-left: 0%;  
+    padding-left: 0%;  
 }
 .buttons_ui {
     width: 800px;
 }
 .buttons_ui button:first-child{
-    margin-left: 0%;
+    padding-left: 0%;
 }
 .orizon_ig > img {
     width: 100%; 
