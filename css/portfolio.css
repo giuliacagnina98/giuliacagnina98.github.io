@@ -127,8 +127,22 @@ li {
     margin: 30px auto;
 }
 
+.buttons_ux  a {
+    background-color: #5154B2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: left;
+    margin: 40px;
 
-button {
+}
+.button_ui a {
     background-color: #5154B2;
     border: none;
     color: white;
@@ -144,11 +158,9 @@ button {
 }
 
 
-button:hover {
+.button_ux a:hover, .button_ui a:hover {
     background-color: #9B85CB;
 }
-
-
 
 .wrapper-progetti-ux {
     background-color: #EFE8F1;
