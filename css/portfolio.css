@@ -150,7 +150,7 @@ li {
     background-color: #EFE8F1;
     width: 1200px;
     text-align: left;
-    margin: 60px 80px;
+    margin: 60px auto;
 }
 .wrapper-progetti-ux > p {
     margin-top: 50px;
@@ -159,7 +159,7 @@ li {
     background-color: #EFE8F1;
     width: 1200px;
     text-align: left;
-    margin: 60px 80px;
+    margin: 60px auto;
 }
 .progetti_ui > p {
     margin-top: 50px;
@@ -169,7 +169,7 @@ li {
     background-color: #EFE8F1;
     width: 1200px;
     text-align: left;
-    margin: 60px 80px;   
+    margin: 60px auto ;   
 }
 .progetti_grafica  > p {
     margin-top: 50px;
