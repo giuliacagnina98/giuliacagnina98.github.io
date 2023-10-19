@@ -52,8 +52,7 @@ p {
     border-bottom: 5px solid #EFE8F1;
     height: 100px;
     width: 100px;        
-    margin-top: 50px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 ul {
     display: flex;
@@ -61,7 +60,7 @@ ul {
     align-items: center;
     height: 100%; 
     width: 100%;
-    margin: 0 auto;
+    padding-top: 50px;
 }
 li {
     color:#5154B2;
