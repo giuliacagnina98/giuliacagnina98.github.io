@@ -138,6 +138,7 @@ li {
     float: left;
     width: 500px;
     height: 500px; 
+    margin-left: 0;
 
 }
 .skills {
@@ -180,4 +181,7 @@ li {
     color:#FFFFFF;
     text-align: center;
     margin: 30px auto;
+}
+.footer-social a {
+    color: #FFFFFF
 }
