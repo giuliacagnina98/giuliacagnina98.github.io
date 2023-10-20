@@ -104,6 +104,10 @@ li {
     float: left;
     width: 50%;
     margin-left: 60px;
+    margin-top: 60px;
+}
+.formazione_text > p {
+    margin-top: 40px;
 }
 .formazione_img > img {
     float: right;
@@ -117,6 +121,7 @@ li {
     height: 500px;
     display: flex;
     margin-left: 50px;
+    margin-top: 60px;
 }
 .esperienze_text {
     float: right;
