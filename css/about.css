@@ -11,7 +11,10 @@ body {
     background-color: #EFE8F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-   
+
+
+/* STYLE HEADING */
+
 h1 {
     color: #5154B2;
     font-size: 49px; 
@@ -47,6 +50,9 @@ p {
     font-weight: normal; 
     text-align: left; 
 }
+
+/* NAVIGATION BAR */
+
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;
@@ -76,20 +82,11 @@ li {
     background-color: #D9C5E4;
     border-bottom: 5px solid #D9C5E4;
 }
-.footer-container {
-    border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-    color:#FFFFFF;
-    text-align: center;
-    margin: 30px auto;
-}
+/*____________________*/
+
+
+/* MAIN */
+
 .biografia {
     margin-left: 80px; 
 }
@@ -153,4 +150,21 @@ li {
   float: right; 
   margin: auto 0; 
 
+}
+
+/* FOOTER */
+
+.footer-container {
+    border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+    color:#FFFFFF;
+    text-align: center;
+    margin: 30px auto;
 }
