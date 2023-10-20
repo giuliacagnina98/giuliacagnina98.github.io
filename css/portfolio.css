@@ -1,26 +1,3 @@
-/* 
-    IMPORTANTISSIMO:
-
-    -> si aggiunge il margin solo ad elementi di tipo inline es: button, a, span ecc ecc
-    -> si aggiunge il padding a elementi di tipo block es: div, h1, p, ecc ecc
-
-    => aggiungere il PADDING a elementi di tipo BLOCK fa si che l'elemento contenitore rispetta le sue caratteristiche
-    e non viene modificato lo spazio tra gli elementi.
-
-    => aggiungere il PADDING a elementi di tipo INLINE crea lo spazio tra il contenitore e il borde dell'elemento spesso.
-
-    => aggiungere il MARGIN a elementi di tipo BLOCK fa si che la distanza impostata viene calcolata dal bordo dell'elemto all'esterno dello stesso,
-    QUESTO FA SI CHE LA DISTANZA CREATA CON IL MARGIN VIENE CALCOLATA FUORI DAL CONTENITORE PADRE DELL'ELEMENTO E QUINDI NON DAL BORDO DELL'ELEMENTO
-    IN CUI è STATO APPLICATO IL MARGIN AL CONTENITORE ESTERNO.
-    (questo perchè gli elementi che creiamo non hanno un altezza fissa ma varia in base al contenuto).
-
-    => aggiungere il MARGIN a elementi di tipo INLINE non viene calcolata all'infuori del contenitore padre dell'elemento stesso.
-
-    => utilizzare il margin per un elemento block per allinearlo al centro con margin: 0 auto e il padding per il top.
-*/
-
-
-
 * {
     margin: 0; 
     padding: 0;
@@ -110,25 +87,13 @@ li {
     background-color: #D9C5E4;
     border-bottom: 5px solid #D9C5E4;
 }
+.menu a {
+    color:#5154B2;
+    text-decoration: none;
+}
 /* _______________ */
 
-
-/* FOOTER */
-
-.footer-container {
-    border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-    color:#FFFFFF;
-    text-align: center;
-    margin: 30px auto;
-}
+/* MAIN */
 
 .buttons_ux  a, .buttons_ui a {
     background-color: #5154B2;
@@ -215,15 +180,29 @@ li {
     width: 100%; 
     height: auto;
 }
-.menu a {
-    color:#5154B2;
+
+.buttons_ux a {
+    color:#FFFFFF;
     text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer-container {
+    border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+    color:#FFFFFF;
+    text-align: center;
+    margin: 30px auto;
 }
 .footer-social a {
     color: #FFFFFF;
-    text-decoration: none;
-}
-.buttons_ux a {
-    color:#FFFFFF;
     text-decoration: none;
 }
