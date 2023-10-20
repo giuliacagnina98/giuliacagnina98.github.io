@@ -12,6 +12,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* STYLE HEADING*/
+
 h1 {
   color: #5154B2;
   font-size: 49px; 
@@ -40,6 +43,10 @@ p {
   font-weight: bold; 
   text-align: center; 
 }
+
+
+/* NAVIGATION BAR*/
+
 .menu {
   background-color: #EFE8F1;
   border-bottom: 5px solid #EFE8F1;
@@ -69,20 +76,12 @@ li {
   background-color: #D9C5E4;
   border-bottom: 5px solid #D9C5E4;
 }
-.footer-container {
-  border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-  color:#FFFFFF;
-  text-align: center;
-  margin: 30px auto;
-}
+/*_______________*/
+
+
+
+/* MAIN */
+
 .form {
   width: 50%; 
   margin-bottom: 60px;
@@ -139,4 +138,22 @@ li {
   align-items: left;
   margin-top: 80px;
   margin-left: 80px;
+}
+
+
+/* FOOTER */
+
+.footer-container {
+  border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+  color:#FFFFFF;
+  text-align: center;
+  margin: 30px auto;
 }
