@@ -76,6 +76,10 @@ li {
     background-color: #D9C5E4;
     border-bottom: 5px solid #D9C5E4;
 }
+.menu a {
+    color: #5154B2;
+    text-decoration: none;
+}
 .footer-container {
     border-top: 1px solid #5154B2; 
 	text-align:center;
@@ -89,6 +93,10 @@ li {
     color:#FFFFFF;
     text-align: center;
     margin: 30px auto;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 button {
         background-color: #5154B2;
