@@ -94,7 +94,7 @@ li {
 .arte {
     width: 100%;
     background-color: #EFE8F1;
-    height: 500px;
+    height: auto;
     display: flex;
     margin: 150px 60px auto;
 }
