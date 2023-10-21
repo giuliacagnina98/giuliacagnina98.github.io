@@ -7,7 +7,6 @@
     width: 1425px;  
     margin: 0 auto;  
 }
-
 body {
     background-color: #EFE8F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,7 +42,6 @@ h5 {
     font-weight: bold; 
     text-align: center; 
 }
-
 
 p {
     color: #000000;
@@ -113,39 +111,27 @@ button {
      text-align: left;
      margin: 150px 80px;
 }
-.buttons_ux a:hover, .buttons_ui a:hover {
-    background-color: #9B85CB;
-}
-
-.wrapper-progetti-ux {
-    background-color: #EFE8F1;
-    width: 80%;
-    text-align: left;
-    margin: 60px auto;
-}
-.wrapper-progetti-ux > p {
+.progetti_ux > p {
     margin-top: 50px;
-    width: 90%;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    width: 80%;
+    width: 1200px;
     text-align: left;
-    margin: 60px auto;
+    margin: 60px 80px;
 }
 .progetti_ui > p {
     margin-top: 50px;
-    width: 90%;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    width: 80%;
+    width: 1200px;
     text-align: left;
-    margin: 60px auto ;   
+    margin: 60px 80px;   
 }
 .progetti_grafica  > p {
     margin-top: 50px;
-    width: 90%;
+    width: 70%;
 }
 
 .progetto_img > img {
@@ -169,13 +155,13 @@ button {
     width: 800px;
 }
 .buttons_ux button:first-child {
-    padding-left: 0%;  
+    margin-left: 0%;  
 }
 .buttons_ui {
     width: 800px;
 }
 .buttons_ui button:first-child{
-    padding-left: 0%;
+    margin-left: 0%;
 }
 .orizon_ig > img {
     width: 100%; 
