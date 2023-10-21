@@ -62,7 +62,7 @@ ul {
   align-items: center;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
+  margin: 0 auto;
 }
 li {
   color:#5154B2;
@@ -124,7 +124,7 @@ li {
 } 
 .header {
   background-color: #EFE8F1;
-  width: 100%;
+  width: 70%;
   align-items: left;
   margin-left: 80px;
   margin-top: 150px;
@@ -138,30 +138,8 @@ li {
 }
 .saluti {
   background-color: #EFE8F1;
-  width: 100%;
+  width: 70%;
   align-items: left;
   margin-top: 80px;
   margin-left: 80px;
-}
-
-
-/* FOOTER */
-
-.footer-container {
-  border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-  color:#FFFFFF;
-  text-align: center;
-  margin: 30px auto;
-}
-.footer-social a {
-  color: #FFFFFF;
-  text-decoration: none;
 }

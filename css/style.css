@@ -42,9 +42,6 @@ p {
     font-weight: bold; 
     text-align: center; 
 }
-
-/* NAVIGATION BAR*/
-
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;  
@@ -78,14 +75,12 @@ li {
     color:#5154B2;
     text-decoration: none;
 }
-
-/* MAIN */
-
 .header {
+    width: 700px;
     background-color: #EFE8F1;
     align-items: left;
     margin-left: 80px;
-    margin-top: 150Px
+    margin-top: 80Px
     
     }
 .lavori {
@@ -137,25 +132,4 @@ li {
 .ecodream img:first-child {
     width: 600px;
     height: auto;
-}
-
-/* FOOTER */
-
-.footer-container {
-    border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-    color:#FFFFFF;
-    text-align: center;
-    margin: 30px auto;
-}
-.footer-social a {
-    color: #FFFFFF;
-    text-decoration: none;
 }

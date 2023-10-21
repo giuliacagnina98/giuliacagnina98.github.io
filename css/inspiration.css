@@ -54,12 +54,11 @@ p {
 
 .menu {
     background-color: #EFE8F1;
-    border-bottom: 5px solid #EFE8F1;  
-    width: 100%;
-    height: 100px;        
-    padding-left: 50px;
-    position: fixed;
-    top:0;
+    border-bottom: 5px solid #EFE8F1;
+    height: 100px;
+    width: 100px;        
+    margin-top: 50px;
+    margin-left: 50px;
 }
 ul {
     display: flex;    

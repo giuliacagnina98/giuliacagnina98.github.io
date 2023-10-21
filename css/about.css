@@ -68,7 +68,7 @@ ul {
     align-items: center;
     height: 100%;
     width: 100%;
-    padding-top: 50px;
+    margin: 0 auto;
 }
 li {
     color:#5154B2;
@@ -93,7 +93,6 @@ li {
 
 .biografia {
     margin-left: 80px; 
-    margin-top: 150px;
 }
 .formazione {
     width: 100%;
@@ -186,6 +185,14 @@ li {
     color:#FFFFFF;
     text-align: center;
     margin: 30px auto;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu a {
+    color:#5154B2;
+    text-decoration: none;
 }
 .footer-social a {
     color: #FFFFFF;
