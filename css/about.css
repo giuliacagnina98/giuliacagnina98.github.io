@@ -122,12 +122,12 @@ li {
     background-color: #EFE8F1;
     height: auto;
     display: flex;
+    justify-content: center;
+    column-gap: 30px;
     margin: auto;
 }
 .esperienze_text {
-    float: right;
     width: 40%;
-    margin-left: 550px;
     margin-top: 80px;
 }
 .esperienze_text > p {
@@ -136,7 +136,6 @@ li {
 .esperienze_img {
     width: 60%; 
     height: auto;
-    margin-right: 550px;
 }
 .esperienze_img > img {
     float: left;
