@@ -12,6 +12,8 @@ body  {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* STYLE HEADING */
+
 h1 {
    color: #5154B2;
    font-size: 49px; 
@@ -40,6 +42,9 @@ p {
     font-weight: bold; 
     text-align: center; 
 }
+
+/* NAVIGATION BAR*/
+
 .menu {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;  
@@ -47,6 +52,8 @@ p {
     height: 100px;        
     margin-top: 50px;
     margin-left: 50px;
+    position: fixed; 
+    top: 0;
 }
 ul {
     display: flex;    
@@ -72,30 +79,14 @@ li {
     color:#5154B2;
     text-decoration: none;
 }
-.footer-container {
-    border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-    color:#FFFFFF;
-    text-align: center;
-    margin: 30px auto;
-}
-.footer-social a {
-    color:#FFFFFF;
-    text-decoration: none;
-}
+
+/* MAIN */
 
 .header {
     background-color: #EFE8F1;
     align-items: left;
     margin-left: 80px;
-    margin-top: 80Px
+    margin-top: 150Px
     
     }
 .lavori {
@@ -147,4 +138,25 @@ li {
 .ecodream img:first-child {
     width: 600px;
     height: auto;
+}
+
+/* FOOTER */
+
+.footer-container {
+    border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+    color:#FFFFFF;
+    text-align: center;
+    margin: 30px auto;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
