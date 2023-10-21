@@ -12,6 +12,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* STYLE HEADING */
+
 h1 {
     color: #5154B2;
     font-size: 49px; 
@@ -47,57 +49,45 @@ p {
     font-weight: normal; 
     text-align: left; 
 }
+
+/* NAVIGATION BAR */
+
 .menu {
     background-color: #EFE8F1;
-    border-bottom: 5px solid #EFE8F1;
-    height: 100px;
-    width: 100px;        
-    margin-top: 50px;
-    margin-left: 50px;
+    border-bottom: 5px solid #EFE8F1;  
+    width: 100%;
+    height: 100px;        
+    padding-left: 50px;
+    position: fixed;
+    top:0;
 }
 ul {
-    display: flex;
-    flex-direction: row;
+    display: flex;    
+    flex-direction: row; 
     align-items: center;
-    height: 100%; 
+    height: 100%;
     width: 100%;
-    margin: 0 auto;
+    padding-top: 50px;
 }
 li {
     color:#5154B2;
     display: block; 
-    font-weight: normal;
+    font-weight: normal;  
     font-size: 25px;
     padding-right: 10px;
-    list-style-type: none;
-    text-align: left;
+    list-style-type: none;  
 }
 .menu li.active, .menu li:hover {
     background-color: #D9C5E4;
     border-bottom: 5px solid #D9C5E4;
 }
 .menu a {
-    color: #5154B2;
+    color:#5154B2;
     text-decoration: none;
 }
-.footer-container {
-    border-top: 1px solid #5154B2; 
-	text-align:center;
-	padding:30px 10px;
-	line-height: 1.6em;
-	font-size:0.8em;
-	background-color: #5154B2;
-	color: #fff;
-}
-.footer-social {
-    color:#FFFFFF;
-    text-align: center;
-    margin: 30px auto;
-}
-.footer-social a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
+/* MAIN */
+
 button {
         background-color: #5154B2;
         border: none;
@@ -176,4 +166,25 @@ button {
 .orizon_ig > img {
     width: 100%; 
     height: auto;
+}
+
+/* FOOTER */
+
+.footer-container {
+    border-top: 1px solid #5154B2; 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: #5154B2;
+	color: #fff;
+}
+.footer-social {
+    color:#FFFFFF;
+    text-align: center;
+    margin: 30px auto;
+}
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
