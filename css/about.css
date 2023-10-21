@@ -32,14 +32,14 @@ h3 {
 
 h4 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
 
 }
    h5 {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold; 
     text-align: center; 
 }
@@ -68,7 +68,7 @@ ul {
     align-items: center;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
+    padding-top: 50px;
 }
 li {
     color:#5154B2;
@@ -92,14 +92,15 @@ li {
 /* MAIN */
 
 .biografia {
-    margin-left: 80px; 
+    margin-top: 150px;
+    margin-left: 80px;
 }
 .formazione {
     width: 100%;
     background-color: #EFE8F1;
     height: auto;
     display: flex;
-    margin: auto;
+    margin: 60px auto;
 }
 .formazione_text {
     float: left;
@@ -123,13 +124,14 @@ li {
     height: auto;
     display: flex;
     justify-content: center;
-    column-gap: 20%;
-    margin: auto;
+    column-gap: 0;
+    margin: 60px auto;
+    flex-direction:row-reverse;
 }
 .esperienze_text {
-    width: 40%;
+    width: 50%;
     margin-top: 80px;
-    align-self: right;
+    margin-right: 60px;
 }
 .esperienze_text > p {
     margin-top: 40px;
@@ -138,7 +140,6 @@ li {
     width: 60%; 
     height: auto;
     margin-top: 80px;
-    align-self: left;
 }
 .esperienze_img > img {
     float: left;
@@ -152,18 +153,21 @@ li {
     background-color: #EFE8F1;
     height: auto;
     display: flex;
-    margin-left: 50px;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 .skills_text {
     float: left;
-    width: 40%;
+    width: 50%;
     margin-left: 50px;
     margin-top: 60px;
 }
 .skills_text > p {
     margin-top: 40px;
 
+}
+.skills_img {
+    margin: auto;
+    width: 50%;
 }
 .skills_img > img {
   width: 500px; 
@@ -187,14 +191,6 @@ li {
     color:#FFFFFF;
     text-align: center;
     margin: 30px auto;
-}
-.footer-social a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.menu a {
-    color:#5154B2;
-    text-decoration: none;
 }
 .footer-social a {
     color: #FFFFFF;
