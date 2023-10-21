@@ -123,12 +123,13 @@ li {
     height: auto;
     display: flex;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 20%;
     margin: auto;
 }
 .esperienze_text {
     width: 40%;
     margin-top: 80px;
+    align-self: right;
 }
 .esperienze_text > p {
     margin-top: 40px;
@@ -136,6 +137,8 @@ li {
 .esperienze_img {
     width: 60%; 
     height: auto;
+    margin-top: 80px;
+    align-self: left;
 }
 .esperienze_img > img {
     float: left;
