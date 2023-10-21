@@ -96,47 +96,72 @@ li {
     background-color: #EFE8F1;
     height: 500px;
     display: flex;
-    margin-left: 50px;
-    margin-top: 150px;
+    margin: 150px 60px auto;
 }
 .arte_text {
     float: left;
     width: 50%;
 }
+.arte_text >p {
+    margin-top: 40px;
+}
 .arte_img {
     float: right;
     width: 50%;
 }
+.arte_img > img {
+    margin-left: 150px;
+    height: 500px;
+    width: 500px;
+}
 .colore {
     width: 100%;
     background-color: #EFE8F1;
-    height: 500px;
+    height: auto;
     display: flex;
-    margin-left: 50px;
+    margin: 60px auto;
+    flex-direction: row-reverse;
 }
 .colore_text {
     float: right;
     width: 50%;
+    margin-top: 60px;
+}
+.colore_text > p {
+    margin-top: 40px;
 }
 .colore_img {
     float: left;
     width: 50%;
+    margin: 0;
+}
+.colore_img > img {
+    width: 500px;
+    height: 500px;
 }
 .natura {
     width: 100%;
     background-color: #EFE8F1;
-    height: 500px;
+    height: auto;
     display: flex;
-    margin-left: 50px;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 .natura_text {
     float: left;
     width: 50%;
+    margin-left: 60px;
+}
+.natura_text > p {
+    margin-top: 40px;
 }
 .natura_img {
     float: right;
     width: 50%;
+}
+.natura_img > img {
+    width: 500px; 
+    height: 500px;
+    margin-left: 180px;
 }
 
 
