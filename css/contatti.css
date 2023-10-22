@@ -32,14 +32,14 @@ h3 {
    
 h4 {
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
 
 p {
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold; 
   text-align: center; 
 }
@@ -86,26 +86,48 @@ li {
 
 /* MAIN */
 
-.form {
+.form-inline {
   width: 50%; 
   margin-bottom: 60px;
+  margin-left: 80px;
 }
 .form-inline label {
     margin: 5px 10px 5px 0;
-    margin-left: 80px;
     color:#5154B2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 25px;
 }
 .form-inline input {
-    vertical-align: middle;
-    margin: 5px 80px 5px 0;
-    padding: 80px;
-    margin-left: 80px;
-    background-color: #BCA4D7;
     border: 1px solid #BCA4D7;
-    align-items: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+label, input, textarea {
+  display: block;
+  outline: none;
+}
+.form-inline textarea {
+  border: 1px solid #BCA4D7;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px; 
+  padding: 5px 10px;
+}
+.form-inline ::placeholder {
+  color: #FFFFFF;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+.form-inline input, textarea {
+  background-color: #D9C5E4;
+
+}
+.form-inline input:active, textarea:active {
+  background-color: #BCA4D7;
 }
 .form-inline button {
     padding: 20px 60px;
@@ -142,4 +164,25 @@ li {
   align-items: left;
   margin-top: 80px;
   margin-left: 80px;
+}
+
+/* FOOTER */
+
+.footer-container {
+  border-top: 1px solid #5154B2; 
+text-align:center;
+padding:30px 10px;
+line-height: 1.6em;
+font-size:0.8em;
+background-color: #5154B2;
+color: #fff;
+}
+.footer-social {
+  color:#FFFFFF;
+  text-align: center;
+  margin: 30px auto;
+}
+.footer-social a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
