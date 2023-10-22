@@ -126,9 +126,6 @@ label, input, textarea {
   background-color: #D9C5E4;
 
 }
-.form-inline input:active, textarea:active {
-  background-color: #BCA4D7;
-}
 .form-inline button {
     padding: 20px 60px;
     margin-top: 40px;
