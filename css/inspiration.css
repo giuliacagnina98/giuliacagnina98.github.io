@@ -96,23 +96,20 @@ li {
     background-color: #EFE8F1;
     height: auto;
     display: flex;
-    margin: 150px auto;
+    margin: 150px auto; 
+    justify-content: space-between;
 }
 .arte_text {
-    float: left;
     width: 50%;
+    margin-left: 40px
 }
 .arte_text >p {
     margin-top: 40px;
 }
-.arte_img {
-    float: right;
-    width: 50%;
-}
 .arte_img > img {
     margin-left: 150px;
-    height: 500px;
     width: 500px;
+    height: 500px;
 }
 .colore {
     width: 100%;
@@ -123,15 +120,14 @@ li {
     flex-direction: row-reverse;
 }
 .colore_text {
-    float: right;
     width: 50%;
     margin-top: 60px;
 }
 .colore_text > p {
     margin-top: 40px;
+    margin-right: 10%;
 }
 .colore_img {
-    float: left;
     width: 50%;
     margin: 0;
 }
@@ -147,7 +143,6 @@ li {
     margin: 60px auto;
 }
 .natura_text {
-    float: left;
     width: 50%;
     margin-left: 60px;
 }
@@ -155,7 +150,6 @@ li {
     margin-top: 40px;
 }
 .natura_img {
-    float: right;
     width: 50%;
 }
 .natura_img > img {
