@@ -162,3 +162,8 @@ li {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media (320px <= width <= 425px) {                  /* Mobile Style */
+     
+}
+
