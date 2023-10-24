@@ -264,6 +264,11 @@ details {
     .biografia {
         flex-direction: column;
         width: 100%;
+        margin: 150px auto;
+    }
+    .biografia > h1 {
+        width: 90%; 
+        margin: 150px auto;
     }
     .formazione {
         flex-direction: column;
@@ -271,7 +276,7 @@ details {
     }
     .formazione_text {
         width: 90%;
-        margin: 60px auto;
+        margin: 10px auto;
     }
     .esperienze {
         flex-direction: column; 
