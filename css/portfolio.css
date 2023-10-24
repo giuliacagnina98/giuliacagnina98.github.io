@@ -167,13 +167,13 @@ button {
     height: auto;
 }
 .buttons_ux {
-    width: 800px;
+    width: 100%;
 }
 .buttons_ux button:first-child {
     margin-left: 0%;  
 }
 .buttons_ui {
-    width: 800px;
+    width: 100%;
 }
 .buttons_ui button:first-child{
     margin-left: 0%;
@@ -229,6 +229,7 @@ button {
     }
     .menu {
        justify-content: flex-end;
+       width: 100%;
     }
     summary {
     width: 100%;
@@ -243,32 +244,39 @@ button {
         width: 100%;
     }
     h1 {
+        margin-top: 60px;
         font-size: 20px; 
         text-align: center;
     }
     p {
+        width: 80%;
         font-size: 12px; 
         text-align: center;
+        margin: 50px auto;
     }
     .progetti_ux {
         width: 90%;
         margin-left: 15px;
     }
-    .buttons_ux {
-        width: 30%;
-        margin-left: 5px;
-    }
     .progetti_ui {
         width: 90%;
         margin-left: 15px;
     }
-    .butons_ui {
-        width: 30%;
-        margin-left: 5px;
-    }
     .progetti_grafica {
         width: 90%;
         margin-left: 15px;
+    }
+    button {
+     display: inline-block;
+     background-color: #5154B2;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     margin: 15px auto;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     width: 100%;
     }
 
 }
