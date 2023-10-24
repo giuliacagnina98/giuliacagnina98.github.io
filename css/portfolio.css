@@ -122,18 +122,18 @@ button {
     }
 .progetti_ux {
      background-color: #EFE8F1;
-     width: 1200px;
+     width: 100%;
      text-align: left;
-     margin: 150px 80px;
+     margin: 150px auto;
 }
 .progetti_ux > p {
     margin-top: 50px;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    width: 1200px;
+    width: 100%;
     text-align: left;
-    margin: 60px 80px;
+    margin: 60px auto;
 }
 .progetti_ui > p {
     margin-top: 50px;
