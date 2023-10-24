@@ -259,8 +259,50 @@ details {
     h3 {
         font-size: 18px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
 }
 
+
+@media (426px <= width <= 1024px) {           /* Tablet Style */
+    .menu {
+        justify-content: flex-start;
+    }
+    .nav {
+        width: 100%; 
+    }              
+    .nav > li {
+        margin-inline: 10px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    h1 {
+        font-size: 31px;
+    }
+    h2 {
+        font-size: 31px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .header_img {
+        width: 100%; 
+        height: auto;
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+    .lavori {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 40px;
+
+    }
+}
