@@ -204,6 +204,8 @@ button {
     text-decoration: none;
 }
 
+/* fixed navbar responsive */
+
 @media (320px <= width <= 425px) {                  /* Mobile Style */
     details {
        width: 100%;
