@@ -56,35 +56,50 @@ p {
     background-color: #EFE8F1;
     border-bottom: 5px solid #EFE8F1;  
     width: 100%;
-    height: 100px;        
-    padding-left: 50px;
+    padding-block: 50px;
     position: fixed;
     top:0;
+    display: flex;
+    justify-content: space-around;
 }
-ul {
+.menu > .nav {
     display: flex;    
-    flex-direction: row; 
     align-items: center;
-    height: 100%;
-    width: 100%;
-    padding-top: 50px;
+    width: 50%;
 }
 li {
-    color:#5154B2;
     display: block; 
     font-weight: normal;  
     font-size: 25px;
     padding-right: 10px;
     list-style-type: none;  
 }
-.menu li.active, .menu li:hover {
-    background-color: #D9C5E4;
-    border-bottom: 5px solid #D9C5E4;
-}
-.menu a {
+.menu ul li a {
     color:#5154B2;
     text-decoration: none;
 }
+ul:hover > :not(:hover) {
+    opacity: .5;
+
+}
+summary > div {
+    width: 42px;
+    height: 5px;
+    background-color: #5154B2;
+    margin-block: 3px;
+    border-radius: 5px;
+}
+summary {
+    list-style: none !important;
+}
+li {
+    display: inline;
+    margin-inline: 10px;
+}
+details {
+    display: none;
+}
+/*________________*/
 
 /* MAIN */
 
@@ -187,4 +202,71 @@ button {
 .footer-social a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+@media (320px <= width <= 425px) {                  /* Mobile Style */
+    details {
+       width: 100%;
+       display: block;
+       text-align: right;
+    }
+    .menu > .nav {
+       display: none;
+    }
+    .nav {
+       display: none;
+    }
+    details ul {
+       display: flex;
+       width: 100%;
+       flex-direction: column; 
+       align-items: right;
+    }
+    details a {
+       font-size: 35px;
+    }
+    .menu {
+       justify-content: flex-end;
+    }
+    summary {
+    width: 100%;
+    text-align: right;
+    list-style: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 25px;
+    }
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 20px; 
+        text-align: center;
+    }
+    p {
+        font-size: 12px; 
+        text-align: center;
+    }
+    .progetti_ux {
+        width: 90%;
+        margin-left: 15px;
+    }
+    .buttons_ux {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .progetti_ui {
+        width: 90%;
+        margin-left: 15px;
+    }
+    .butons_ui {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .progetti_grafica {
+        width: 90%;
+        margin-left: 15px;
+    }
+
 }
