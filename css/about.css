@@ -212,7 +212,7 @@ details {
 }
 
 
-@media (320px <= width <= 425px) {                  /* Mobile Style */
+@media (320px <= width <= 429px) {                  /* Mobile Style */
     details {
        width: 100%;
        display: block;
@@ -315,3 +315,98 @@ details {
         height: auto; 
     }
 }
+
+@media (430px <= width <= 1024px) {           /* Tablet Style */
+    .menu {
+        justify-content: flex-start;
+    }
+    .nav {
+        width: 100%; 
+    }              
+    .nav > li {
+        margin-inline: 10px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 31px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .biografia {
+        flex-direction: column;
+        width: 100%;
+        margin: 150px auto;
+    }
+    .biografia > h1 {
+        width: 90%; 
+        margin: 150px auto;
+    }
+    .formazione {
+        flex-direction: column;
+        width: 100%;
+    }
+    .formazione_text {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .formazione_img {
+        width: 100%; 
+        height: auto;
+        margin: 60px auto;
+    }
+    .formazione_img > img {
+        width: 100%;
+        height: auto;
+    }
+    .esperienze {
+        flex-direction: column; 
+        width: 100%;
+    }
+    .esperienze_text {
+        width: 90%;
+        align-items: center;
+        margin: 60px auto;
+    }
+    .esperienze_img {
+        width: 100%;
+        height: auto; 
+        margin: 60px auto;
+    }
+    .esperienze_img > img {
+        width: 100%; 
+        height: auto;
+    }
+    .skills {
+        flex-direction: column; 
+        width: 100%;
+    }
+    .skills_text {
+        width: 90%;
+        align-items: center;
+        margin: 60px auto;
+    }
+    .skills_img {
+        width: 100%;
+        height: auto; 
+        margin: 60px auto;
+    }
+    .skills_img > img {
+        width: 100%; 
+        height: auto; 
+    }
+
+
+}
+
