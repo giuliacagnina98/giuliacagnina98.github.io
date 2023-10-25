@@ -180,7 +180,7 @@ details {
     text-decoration: none;
 }
 
-@media (320px <= width <= 425px) {                  /* Mobile Style */
+@media (320px <= width <= 429px) {                  /* Mobile Style */
      details {
         width: 100%;
         display: block;
@@ -265,7 +265,7 @@ details {
 }
 
 
-@media (426px <= width <= 1024px) {           /* Tablet Style */
+@media (430px <= width <= 1024px) {           /* Tablet Style */
     .menu {
         justify-content: flex-start;
     }
@@ -283,6 +283,8 @@ details {
     }
     .header {
         width: 100%;
+        margin: 150px auto;
+        text-align: center;
     }
     h1 {
         font-size: 31px;
@@ -296,13 +298,27 @@ details {
     .header_img {
         width: 100%; 
         height: auto;
-        margin-top: 80px;
-        margin-left: 150px;
+        margin: 80px auto;
     }
     .lavori {
         width: 100%;
-        margin-left: 30px;
-        margin-top: 40px;
-
+        margin: 40px auto;
+        text-align: center;
     }
+    .lavori_img, .ecodream {
+        flex-direction: column;
+    }
+    .lavori_img img  {
+        width: 100%;
+    }
+    .ecodream img:first-child {
+        width: 100%;
+    }
+    .orizon_img img:first-child {
+        width: 100%;
+    }
+    .lavori_img > img:not(.mobile_ecodream) {
+        width: 100%;
+    }
+    
 }
