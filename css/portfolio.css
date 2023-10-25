@@ -115,34 +115,34 @@ button {
         display: inline-block;
         font-size: 16px;
         align-items: left;
-        margin: 40px;
+        margin: 40px 40px 0 0;
     }
     button:hover {
         background-color: #9B85CB;
     }
 .progetti_ux {
      background-color: #EFE8F1;
-     width: 100%;
+     width: 80%;
      text-align: left;
-     margin: 150px 80px;
+     margin: 150px auto;
 }
 .progetti_ux > p {
     margin-top: 50px;
 }
 .progetti_ui {
     background-color: #EFE8F1;
-    width: 100%;
+    width: 80%;
     text-align: left;
-    margin: 60px 80px;
+    margin: 60px auto;
 }
 .progetti_ui > p {
     margin-top: 50px;
 }
 .progetti_grafica {
     background-color: #EFE8F1;
-    width: 1200px;
+    width: 80%;
     text-align: left;
-    margin: 60px 80px;   
+    margin: 60px auto;   
 }
 .progetti_grafica  > p {
     margin-top: 50px;
@@ -168,9 +168,6 @@ button {
 }
 .buttons_ux {
     width: 100%;
-}
-.buttons_ux button:first-child {
-    margin-left: 0%;  
 }
 .buttons_ui {
     width: 100%;
@@ -205,7 +202,7 @@ button {
 }
 
 
-@media (320px <= width <= 425px) {                  /* Mobile Style */
+@media (320px <= width <= 429px) {                  /* Mobile Style */
     details {
        width: 100%;
        display: block;
@@ -279,3 +276,75 @@ button {
     }
 
 }
+
+@media (430px <= width <= 1024px) {           /* Tablet Style */
+    .menu {
+        justify-content: flex-start;
+    }
+    .nav {
+        width: 100%; 
+    }              
+    .nav > li {
+        margin-inline: 10px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        margin: 150px auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 31px;
+        text-align: center;
+    }
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .progetti_ux {
+        width: 80%;
+        margin: 150px auto;
+    }
+    .progetti_ux > p {
+        width: 80%; 
+        margin: 40px auto;
+    }
+    .progetti_ui {
+        width: 80%; 
+        margin: 40px auto;
+    }
+    .progetti_ui > p {
+        width: 80%;
+        margin: 40px auto;
+    }
+    .progetti_grafica {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .progetti_grafica > p {
+        width: 80%;
+        margin: 40px auto;
+    }
+    button {
+        display: inline-block;
+        background-color: #5154B2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        margin: 15px auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100%;
+        
+    }
+   
+   
+
+}
+
